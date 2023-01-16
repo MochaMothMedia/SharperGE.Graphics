@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MochaMoth.SharperGE.Graphics.UI", "MochaMoth.SharperGE.Graphics.UI\MochaMoth.SharperGE.Graphics.UI.csproj", "{AF1B3772-682F-426B-AE21-BFA513CE8A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MochaMoth.SharperGE.Graphics.Demo", "MochaMoth.SharperGE.Graphics.Demo\MochaMoth.SharperGE.Graphics.Demo.csproj", "{C7C800A4-9708-457D-8DE9-AE7F73BFF3C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF1B3772-682F-426B-AE21-BFA513CE8A0A} = {AF1B3772-682F-426B-AE21-BFA513CE8A0A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF1B3772-682F-426B-AE21-BFA513CE8A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1B3772-682F-426B-AE21-BFA513CE8A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1B3772-682F-426B-AE21-BFA513CE8A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1B3772-682F-426B-AE21-BFA513CE8A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C800A4-9708-457D-8DE9-AE7F73BFF3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C800A4-9708-457D-8DE9-AE7F73BFF3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C800A4-9708-457D-8DE9-AE7F73BFF3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C800A4-9708-457D-8DE9-AE7F73BFF3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90CB01F6-0474-47E6-B821-BA86410D9011}
+	EndGlobalSection
+EndGlobal
